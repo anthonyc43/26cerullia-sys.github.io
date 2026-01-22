@@ -19,16 +19,21 @@
 }
 
 html {
-  font-family: "Lucida Sans", sans-serif;
+  font-family: "Times New Roman", serif;
 }
 
 .header {
-  background-color: #9933cc;
+  background-color: #FF0000;
   color: #ffffff;
   padding: 15px;
 }
 
+.menu {
+  text-align: center;
+}
+
 .menu ul {
+  display: inline-block;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -37,17 +42,17 @@ html {
 .menu li {
   padding: 8px;
   margin-bottom: 7px;
-  background-color: #33b5e5;
+  background-color: #006400;
   color: #ffffff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 .menu li:hover {
-  background-color: #0099cc;
+  background-color: #006400;
 }
 
 .aside {
-  background-color: #33b5e5;
+  background-color: #006400;
   padding: 15px;
   color: #2c1a92;
   text-align: center;
@@ -56,7 +61,7 @@ html {
 }
 
 .footer {
-  background-color: #0099cc;
+  background-color: #006400;
   color: #ffffff;
   text-align: center;
   font-size: 12px;
@@ -103,22 +108,20 @@ h1 {
 }
 </style>
 </head>
-<body style="background-color: #FF0000;">
+<body style="background-color: #006400;">
 
 <div class="header">
   <h1>Anthony Cerulli</h1>
 </div>
-<div class="row">
-  <div class="col-5 .col-s-5 menu">
-    <ul>
-      <li><a href="aboutme.html" style="color:inherit; text-decoration:none; display:block;">About me</a></li>
-      <li><a href="games.html" style="color:inherit; text-decoration:none; display:block;">Games</a></li>
-      <li><a href="Music.html" style="color:inherit; text-decoration:none; display:block;">Music</a></li>
-      <li><a href="contactinfo.html" style="color:inherit; text-decoration:none; display:block;">Contact me</a></li>
-      
-    </ul>
-  </div>
-  </div>
+<div class="menu">
+  <ul>
+    <li><a href="aboutme.html" style="color:inherit; text-decoration:none; display:block;">About me</a></li>
+    <li><a href="games.html" style="color:inherit; text-decoration:none; display:block;">Games</a></li>
+    <li><a href="Music.html" style="color:inherit; text-decoration:none; display:block;">Music</a></li>
+    <li><a href="contactinfo.html" style="color:inherit; text-decoration:none; display:block;">Contact me</a></li>
+    
+  </ul>
+</div>
 
 </body>
 </html>
